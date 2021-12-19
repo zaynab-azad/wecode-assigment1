@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #565656;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.personDetail {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border: #000 solid 2px;
+  border-radius: 50px;
+  margin: 60px;
+}
+
+.personDetail img {
+  width: 120px;
+}
+
+.personDetail .studInfo {
+  /* border: solid rgb(221, 220, 220) 3px; */
+  font-size: 20px;
+  line-height: 25px;
+  padding-top: 15px;
+  background-color: #191919;
+  color: #c7c7c7;
+  width: 300px;
+  height: 150px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
